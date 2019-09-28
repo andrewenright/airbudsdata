@@ -44,7 +44,6 @@ year_most_waiver_wire_pickups = 0
 year_most_transactions = 0
 year_most_trades = 0
 
-
 f = open("stats.txt", "w+")
 
 output = "All Time Records\n" \
@@ -111,6 +110,5 @@ output = "All Time Records\n" \
                    year_most_waiver_wire_pickups=year_most_waiver_wire_pickups,
                    year_most_transactions=year_most_transactions,
                    year_most_trades=year_most_trades)
-
 
 f.write(output)
