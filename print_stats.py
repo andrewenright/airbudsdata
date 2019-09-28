@@ -80,5 +80,37 @@ output = "All Time Records\n" \
          "Most Waiver Wire Pickups - {year_most_waiver_wire_pickups}\n\n" \
          "Most Transactions - {year_most_transactions}\n\n" \
          "Most Trades - {year_most_trades}\n\n" \
+         "".format(weekly_highest_team_score=weekly_highest_team_score,
+                   weekly_lowest_team_score=weekly_lowest_team_score,
+                   weekly_highest_player_score=weekly_highest_player_score,
+                   biggest_blowout=biggest_blowout,
+                   longest_win_streak=longest_win_streak,
+                   longest_losing_streak=longest_losing_streak,
+                   highest_points_for=highest_points_for,
+                   lowest_points_for=lowest_points_for,
+                   highest_points_against=highest_points_against,
+                   lowest_points_against=lowest_points_against,
+                   greatest_season_point_differential=greatest_season_point_differential,
+                   lowest_season_point_differential=lowest_season_point_differential,
+                   most_waiver_wire_pickups=most_waiver_wire_pickups,
+                   most_transactions=most_transactions,
+                   most_trades=most_trades,
+                   sixty_nine_club=sixty_nine_club,
+                   year_weekly_highest_team_score=year_weekly_highest_team_score,
+                   year_weekly_lowest_team_score=year_weekly_lowest_team_score,
+                   year_weekly_highest_player_score=year_weekly_highest_player_score,
+                   year_biggest_blowout=year_biggest_blowout,
+                   year_longest_win_streak=year_longest_win_streak,
+                   year_longest_losing_streak=year_longest_losing_streak,
+                   year_highest_points_for=year_highest_points_for,
+                   year_lowest_points_for=year_lowest_points_for,
+                   year_highest_points_against=year_highest_points_against,
+                   year_lowest_points_against=year_lowest_points_against,
+                   year_greatest_season_point_differential=year_greatest_season_point_differential,
+                   year_lowest_season_point_differential=year_lowest_season_point_differential,
+                   year_most_waiver_wire_pickups=year_most_waiver_wire_pickups,
+                   year_most_transactions=year_most_transactions,
+                   year_most_trades=year_most_trades)
+
 
 f.write(output)
